@@ -27,3 +27,6 @@ for x in data:
 
     dates.append(date)
     values.append(values)
+
+plt.plot(dates, values)
+plt.show()
