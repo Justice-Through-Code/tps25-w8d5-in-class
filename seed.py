@@ -54,7 +54,7 @@ for file in all_files:
 
             if station_code not in station_list:
                 print(station_code)
-                #cur.execute(insert_stations_query, (station_code, station_name))
+                cur.execute(insert_stations_query, (station_code, station_name))
                 station_list.append(station_code)
 
             cur.execute(insert_readings_query, 
